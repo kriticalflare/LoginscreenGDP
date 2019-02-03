@@ -84,6 +84,7 @@
         android:layout_below="@id/email_text_view"
         android:layout_toRightOf="@id/email_image_view"
         android:layout_marginTop="12dp"
+        android:theme="@style/EditTextTheme"
         />
     <EditText
         android:id="@+id/user_edit_view"
@@ -93,6 +94,8 @@
         android:layout_below="@id/user_text_view"
         android:layout_toRightOf="@id/user_image_view"
         android:layout_marginTop="12dp"
+        android:theme="@style/EditTextTheme"
+
         />
     <EditText
         android:id="@+id/pass_edit_view"
@@ -102,6 +105,8 @@
         android:layout_below="@id/pass_text_view"
         android:layout_toRightOf="@id/pass_image_view"
         android:layout_marginTop="12dp"
+        android:theme="@style/EditTextTheme"
+
         />
     <Button
         android:id="@+id/button_id"

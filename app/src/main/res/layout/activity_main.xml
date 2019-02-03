@@ -75,20 +75,26 @@
     <EditText
         android:id="@+id/email_edit_view"
         android:layout_width="280dp"
-        android:layout_height="72dp"
+        android:layout_height="35dp"
         android:inputType="text"
+        android:layout_below="@id/email_text_view"
+        android:layout_toRightOf="@id/email_image_view"
         />
     <EditText
         android:id="@+id/user_edit_view"
         android:layout_width="280dp"
-        android:layout_height="72dp"
+        android:layout_height="35dp"
         android:inputType="text"
+        android:layout_below="@id/user_text_view"
+        android:layout_toRightOf="@id/user_image_view"
         />
     <EditText
         android:id="@+id/pass_edit_view"
         android:layout_width="280dp"
-        android:layout_height="72dp"
+        android:layout_height="35dp"
         android:inputType="textPassword"
+        android:layout_below="@id/pass_text_view"
+        android:layout_toRightOf="@id/pass_image_view"
         />
 
 </RelativeLayout>

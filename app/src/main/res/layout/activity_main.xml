@@ -5,13 +5,13 @@
     android:layout_height="match_parent"
     >
     <ImageView
-    android:id="@+id/email_image_view"
-    android:layout_width="32dp"
-    android:layout_height="32dp"
-    android:scaleType="centerCrop"
-    android:src="@drawable/email"
-    android:layout_below="@id/email_text_view"
-    android:layout_marginTop="16dp"
+        android:id="@+id/email_image_view"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/email"
+        android:layout_below="@id/email_text_view"
+        android:layout_marginTop="16dp"
         android:layout_marginLeft="45dp"
         />
     <ImageView
@@ -106,8 +106,8 @@
         android:layout_width="280dp"
         android:text="Get Started"
         android:layout_below="@id/pass_edit_view"
-        android:layout_marginTop="16dp"
-        android:layout_marginLeft="60dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginLeft="76dp"
         />
 
 </RelativeLayout>

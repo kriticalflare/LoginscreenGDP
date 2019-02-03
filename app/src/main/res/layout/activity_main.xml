@@ -32,4 +32,23 @@
         android:scaleType="centerCrop"
         android:src="@drawable/eye"
         />
+    <TextView
+        android:id="@+id/email_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        />
+    <TextView
+        android:id="@+id/user_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        />
+    <TextView
+        android:id="@+id/pass_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        />
+
 </RelativeLayout>

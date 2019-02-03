@@ -11,7 +11,8 @@
     android:scaleType="centerCrop"
     android:src="@drawable/email"
     android:layout_below="@id/email_text_view"
-
+    android:layout_marginTop="16dp"
+        android:layout_marginLeft="45dp"
         />
     <ImageView
         android:id="@+id/user_image_view"
@@ -20,6 +21,9 @@
         android:scaleType="centerCrop"
         android:src="@drawable/user"
         android:layout_below="@id/user_text_view"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="45dp"
         />
     <ImageView
         android:id="@+id/pass_image_view"
@@ -28,6 +32,8 @@
         android:scaleType="centerCrop"
         android:src="@drawable/pass"
         android:layout_below="@id/pass_text_view"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="45dp"
         />
     <ImageView
         android:id="@+id/eye_image_view"
@@ -37,6 +43,8 @@
         android:src="@drawable/eye"
         android:layout_toRightOf="@id/pass_image_view"
         android:layout_below="@id/pass_text_view"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="45dp"
         />
     <TextView
         android:id="@+id/email_text_view"
@@ -45,6 +53,8 @@
         android:text="Email"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:paddingTop="200dp"
+        android:paddingLeft="72dp"
         />
     <TextView
         android:id="@+id/user_text_view"
@@ -52,7 +62,7 @@
         android:layout_height="wrap_content"
         android:text="Username"
         android:layout_below="@id/email_image_view"
-
+        android:paddingLeft="72dp"
         />
     <TextView
         android:id="@+id/pass_text_view"
@@ -60,6 +70,7 @@
         android:layout_height="wrap_content"
         android:text="Password"
         android:layout_below="@id/user_image_view"
+        android:paddingLeft="72dp"
         />
 
 </RelativeLayout>

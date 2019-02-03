@@ -11,4 +11,25 @@
     android:scaleType="centerCrop"
     android:src="@drawable/email"
         />
+    <ImageView
+        android:id="@+id/user_image_view"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/email"
+        />
+    <ImageView
+        android:id="@+id/pass_image_view"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/email"
+        />
+    <ImageView
+        android:id="@+id/eye_image_view"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/email"
+        />
 </RelativeLayout>

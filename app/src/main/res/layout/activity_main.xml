@@ -72,5 +72,20 @@
         android:layout_below="@id/user_image_view"
         android:paddingLeft="72dp"
         />
+    <EditText
+        android:id="@+id/email_edit_view"
+        android:layout_width="280dp"
+        android:layout_height="72dp"
+        />
+    <EditText
+        android:id="@+id/user_edit_view"
+        android:layout_width="280dp"
+        android:layout_height="72dp"
+        />
+    <EditText
+        android:id="@+id/pass_edit_view"
+        android:layout_width="280dp"
+        android:layout_height="72dp"
+        />
 
 </RelativeLayout>

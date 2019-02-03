@@ -111,6 +111,8 @@
         android:layout_below="@id/pass_edit_view"
         android:layout_marginTop="58dp"
         android:layout_marginLeft="76dp"
+        android:background="#9C27B0"
+        android:textColor="@android:color/white"
         />
 
 </RelativeLayout>

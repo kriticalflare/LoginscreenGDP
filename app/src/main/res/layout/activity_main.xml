@@ -54,6 +54,7 @@
         android:layout_alignParentTop="true"
         android:paddingTop="200dp"
         android:paddingLeft="80dp"
+        android:textColor="#9C27B0"
         />
     <TextView
         android:id="@+id/user_text_view"
@@ -63,6 +64,7 @@
         android:layout_below="@id/email_image_view"
         android:paddingLeft="80dp"
         android:layout_marginTop="15dp"
+        android:textColor="#9C27B0"
         />
     <TextView
         android:id="@+id/pass_text_view"
@@ -72,6 +74,7 @@
         android:layout_below="@id/user_image_view"
         android:paddingLeft="80dp"
         android:layout_marginTop="15dp"
+        android:textColor="#9C27B0"
         />
     <EditText
         android:id="@+id/email_edit_view"

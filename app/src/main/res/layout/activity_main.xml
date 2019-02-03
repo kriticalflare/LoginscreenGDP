@@ -16,20 +16,20 @@
         android:layout_width="16dp"
         android:layout_height="16dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/email"
+        android:src="@drawable/user"
         />
     <ImageView
         android:id="@+id/pass_image_view"
         android:layout_width="16dp"
         android:layout_height="16dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/email"
+        android:src="@drawable/pass"
         />
     <ImageView
         android:id="@+id/eye_image_view"
         android:layout_width="16dp"
         android:layout_height="16dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/email"
+        android:src="@drawable/eye"
         />
 </RelativeLayout>
